@@ -7,7 +7,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is an instance variable in Ruby? How is it different from other variables?
 
-  Your answer:
+  Your answer: Variable with an @, belongs to a class, can be available outside the class with an attr_accessor. Different because it belongs to a class.
 
   Researched answer:
 
@@ -15,7 +15,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 2. What is a block in Ruby?
 
-  Your answer:
+  Your answer: Anonymous functions that can be passed to methods, {} for a single line, do/end for multiline
 
   Researched answer:
 
@@ -23,7 +23,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 3. Ruby has an implicit return. What does that mean?
 
-  Your answer:
+  Your answer: Don't have to type the word return, Ruby will return the last line of the method/block
 
   Researched answer:
 
@@ -31,7 +31,19 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer:
+  Your answer: OOP data being the most important vs functions being the most important
+  Tenants of OOP
+  - encapsulation - scope should not bleed
+  - abstraction - inner workings should stay inside
+  - polymorphism - parent classes should be the least specific and reusable
+  - inheritance - relationships between classes
+
+  Tenants of Functional Programming:
+  - pure function - the same input should always produce the same output
+  - immutability - structure of persistent storage should not be updated
+  - function as the most important thing you can create in your code
+  - type systems - avoid type coersion
+  - referential transparency - if you replaced a function with its output the code should not change
 
   Researched answer:
 
@@ -39,7 +51,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 5. What is the difference between a class and an object?
 
-  Your answer:
+  Your answer: Class is a blueprint of an object, object is an instance of a class
 
   Researched answer:
 
@@ -47,7 +59,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 6. STRETCH: What is `attr_accessor`?
 
-  Your answer:
+  Your answer: Allows us to create getter and setter methods for the instance variables
 
   Researched answer:
 
@@ -55,12 +67,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 ## Looking Ahead: Terms for Next Week
 
-1. PostgreSQL:
- 
-2. Ruby on Rails:
+1. PostgreSQL: powerful, open-source, object oriented relational database
 
-3. CRUD:
+2. Ruby on Rails: server side web application framework, open-source, written in Ruby
 
-4. ORM:
+3. CRUD: Create, Read, Update, Delete
 
-5. Active Record:
+4. ORM: Object Relational Mapping, converting data between incompatible systems
+
+5. Active Record: ORM in Rails
